@@ -1,0 +1,213 @@
+/* 
+    Document   : funnyleni
+    Created on : Sep 29, 2013, 5:04:54 PM
+    Author     : Femi TAIWO <dftaiwo@gmail.com>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+        display: block;
+}
+body{
+        font-weight:200;
+}
+
+.appError{
+        color:red;
+        margin:3em;
+        border:2px dotted #ccc;
+        padding:0.5em;
+        display:block;
+}
+
+.highlight{
+        color:red;
+}
+
+.debugTable{
+        text-align: left;
+        
+        margin:0;
+        margin-top:3em;
+        border:1px solid #999;
+}
+.debugTable tr th,.debugTable tr td{
+        padding:0.4em;
+                font-weight:200;
+
+}
+.debugTable tr:first-of-type{
+        background:#edd9f7;
+}
+.debugTable tr:nth-child(even){
+        background:#eee;
+
+}
+
+.quickDesc{
+        margin-top:0.5em;
+        overflow:hidden; 
+        height:5.1em;
+        min-height:5.1em;
+        line-height:1.3em;
+        font-size:0.9em;
+        
+}
+.quickDesc a{
+ color:#666;       
+}
+
+.caption{
+        padding:0;
+        margin:0;
+        height:5em;
+}
+
+.smaller .caption{
+        height:2em;
+        font-size:1em;
+}
+.caption  .item{
+        overflow:hidden; 
+        height:1em;
+        min-height:1em;
+        width:100%;
+        display:block;
+        text-overflow:ellipsis;
+        
+}
+.caption h3  {
+        font-size:1.2em;
+        height:1.5em;
+        font-weight:300;
+        text-overflow:ellipsis;
+}
+.caption h3  .item{
+        overflow:hidden; 
+        height:1.5em;
+        min-height:1.5em;
+        width:100%;
+        display:block;
+        
+}
+
+ul.themes{
+        font-size:1.2em;
+        
+}
+ul.themes li{
+        line-height: 1.6em;
+        list-style: circle;
+}
+
+.clear{
+        clear:both;
+}
+
+.itemButtons{
+font-size:0.9em;
+padding-right:0.2em;
+min-height:1.5em;
+}
+/*.thumbnails > li { width:auto ; }
+
+.thumbnails .caption{ overflow :hidden; text-overflow:ellipsis; white-space:nowrap; }
+
+.thumbnails img{ max-width:250px ;}*/
+.thumbnail{
+    
+}
+
+
+.funnies .imageContainer img{
+        border: 1px solid #eee;
+        background:url('../img/funny.png') no-repeat top left;
+}
+.funnies .imageContainer{
+        max-height:150px;
+        min-height:150px;
+        
+        overflow:hidden;
+}
+.funnies h3{
+        margin:0;
+}
+label{
+        font-weight:bold;
+}
+.control-group span{
+        font-weight:200;
+        display:block;
+        font-size:0.9em;
+                
+}
+form{
+        border:1px solid #ccc;
+        border-radius: 3px;
+        padding:2em;
+        max-width:500px;
+}
+
+.fullWidth{
+        width:98%;
+}
+
+footer{
+        margin-top:4em;
+        border:1px solid #eee;
+        padding:1em 0em;
+}
+#signinButtonTips{
+
+}
+
+.requiresAuth{
+        display:none;
+}
+
+#gLoginButton{
+        display:none;
+        margin:2em 0em;
+        
+}
+
+#progressMessage{
+        background:#efefef;
+        padding:2em 0em;
+        display:block;
+        max-width:400px;
+        display:none;
+}
+
+.floatRight{
+        float:right;
+}
+
+#myBtn.demo {
+    padding: 5px;
+    background-color: #cc3732;
+    color: #fff;
+    cursor: pointer;
+    line-height: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+  }
+  #myBtn.demo .icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url('../img/btn_icons_sprite.png') transparent 0 0px no-repeat;
+  }
+  #myBtn.demo:hover {
+    background-color: #ccc;
+    color: #000;
+    border: 1px solid #e6e6e6;
+  }
+  #myBtn.demo:hover .icon {
+    background: url('../img/btn_icons_sprite.png') transparent 0 -40px no-repeat;
+  }
+  
+  .notVisible{
+          visibility: hidden;
+  }
